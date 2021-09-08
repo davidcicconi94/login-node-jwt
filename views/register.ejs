@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="David Cicconi"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>MK Site | Login</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/sign-in/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/signin.css" rel="stylesheet" />  -->
+
+    <style>
+      body {
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5d7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 shadow-lg p-4 mb-3">
+          <div class="card border-primary">
+            <div class="card-header bg-primary text-white">Register</div>
+            <div class="card-body text-primary">
+              <form action="/register" method="POST">
+                <div class="mb-3">
+                  <label for="name" class="form-label"> Your name </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="user" class="form-label"> User account </label>
+                  <input
+                    type="text"
+                    id="user"
+                    name="user"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="name" class="form-label"> Password </label>
+                  <input
+                    type="password"
+                    id="pass"
+                    name="pass"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="card-footer bg-transparent border-primary">
+                  <button type="submit" class="btn btn-success"> Register </button>
+                  <a href="/" type="button" class="btn btn-secondary"> Cancel</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
